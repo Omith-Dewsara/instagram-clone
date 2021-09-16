@@ -1,0 +1,24 @@
+.imageUpload {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 10px auto 10px auto;
+	/*position: fixed;*/
+	/*bottom: 0;*/
+	background-color: #fff;
+	padding: 20px;
+}
+
+.imageUpload__progress {
+	width: 100%;
+}
+
+.imageUpload > * {
+	margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+	.imageUpload {
+		width: 80%;
+	}
+}
